@@ -83,6 +83,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  color:#ED9942;
 }
 
 p {
@@ -2794,8 +2795,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #ed0031;
-  border-color: #e0002e;
+  background-color: #ed9942;
+  border-color: #ed9942;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -4505,8 +4506,8 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #000;
-  background-color: #fff;
+  color: #fff;
+  background-color: #000;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -5082,6 +5083,7 @@ input[type="button"].btn-block {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem;
+  background-color: #000;
 }
 
 .card-title {
@@ -10973,8 +10975,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Fira Sans", sans-serif;
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #000;
   box-sizing: border-box;
 }
 
@@ -11434,7 +11436,7 @@ p {
 .contact-card {
   border-radius: 0.2rem;
   border: 1px solid #eaf0fc;
-  background: #fff;
+  background: #000;
   box-shadow: 1px 3px 10px rgba(173, 181, 189, 0.4);
   padding: 40px 0;
   display: -webkit-box;
@@ -11519,7 +11521,7 @@ pre .code {
   margin: auto;
   width: 95%;
   max-width: 1050px;
-  border: 1px solid rgba(234, 240, 252, 0.15);
+  border: 4px solid rgba(255, 255, 255, 0.15);
   border-radius: 0.2rem;
   z-index: 9999;
   -webkit-transition: all, 0.33s;
@@ -11587,14 +11589,14 @@ pre .code {
   position: fixed;
   width: 100%;
   max-width: 100%;
-  background: #fff;
+  background: #000;
   -webkit-animation-name: affix;
           animation-name: affix;
   -webkit-animation-duration: .6s;
           animation-duration: .6s;
   top: 0;
   border-radius: 0;
-  border-bottom: 1px solid #eaf0fc;
+  
 }
 
 .custom-navbar.affix .navbar-toggler {
@@ -11608,7 +11610,7 @@ pre .code {
 }
 
 .custom-navbar.affix .nav-link {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 .custom-navbar.affix .nav-link.active {
@@ -11838,7 +11840,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: #fbfcfc;
+  background-color: #000;
 }
 
 section.py-sm,
@@ -11910,7 +11912,7 @@ section .section-title {
 }
 
 .about-wrapper .content {
-  background-color: #fff;
+  background-color: #000;
   box-shadow: 0 3px 80px rgba(173, 181, 189, 0.3), 0 0 10px rgba(173, 181, 189, 0.3) !important;
   border-radius: 0.2rem;
   padding: 30px;
