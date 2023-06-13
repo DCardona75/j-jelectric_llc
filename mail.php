@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     
     // Do something with the data, such as sending an email
-    mail($to, "Message from $first_name ", $comments, $email, $tel);
+    mail($to, "Message from $first_name ", $comments,"Email- $email","phone number= $tel",);
 
     echo 'Form submitted successfully!';
 }
