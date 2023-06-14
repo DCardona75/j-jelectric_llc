@@ -11336,6 +11336,9 @@ p {
   font-size: 40px;
   font-size: calc(20px + (40 - 20) * ((100vw - 320px) / (1200 - 320)));
   margin-bottom: 0px;
+  outline: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 2%;
 }
 
 .widget-2 .widget-item .subtitle {
@@ -11343,6 +11346,7 @@ p {
   font-size: calc(13px + (17 - 13) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 300;
   margin-bottom: -40px;
+
 }
 
 @media (max-width: 575.98px) {
@@ -11753,7 +11757,9 @@ pre .code {
   background: url(../imgs/J&Jtruck2.0.png) no-repeat center center fixed;
   background-size:auto;
   background-color: #040505;
+  padding: 0rem 50rem;
 }
+
 
 .header .overlay {
   position: absolute;
@@ -11761,7 +11767,7 @@ pre .code {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.25);
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -11782,15 +11788,22 @@ pre .code {
           justify-content: center;
 }
 
+
 .header .overlay .subtitle {
   margin-top: -20px;
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
   font-weight: 300;
+  outline: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 2%;
 }
 
 .header .overlay .title {
   font-size: calc(40px + (90 - 40) * ((100vw - 320px) / (1200 - 320)));
   margin-bottom: 40px;
+  outline: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 2%;
 }
 
 @media (max-width: 767.98px) {
@@ -11826,7 +11839,7 @@ pre .code {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
   background: #ffa1b4 !important;
 }
 
